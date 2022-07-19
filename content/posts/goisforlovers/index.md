@@ -1,27 +1,17 @@
-+++
-title = "(Hu)go Template Primer"
-displayInMenu = false
-displayInList = true
-draft = false
-tags = [
-    "go",
-    "golang",
-    "templates",
-    "themes",
-    "development",
-]
-date = "2014-04-02"
-categories = [
-    "Development",
-    "golang",
-]
-[resources]
-name = "featuredImage"
-src = "lucas-benjamin-565254-unsplash.jpg"
-
-[resources.params]
-description = "A jellyfish with neon colors with a dark background"
-+++
+---
+author: "Michael Henderson"
+date: 2014-04-02
+title: (Hu)go Template Primer1
+dropCap: true
+displayInMenu: true
+displayInList: true
+draft: false
+resources:
+- name: featuredImage
+  src: "lucas-benjamin-565254-unsplash.jpg"
+  params:
+    description: "(Hu)go Template Primer1"
+---
 
 Hugo uses the excellent [Go][] [html/template][gohtmltemplate] library for
 its template engine. It is an extremely lightweight engine that provides a very
